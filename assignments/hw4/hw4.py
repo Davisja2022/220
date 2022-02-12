@@ -1,5 +1,5 @@
 """
-Name: <Jessica Davis>
+Name: <jessica davis>
 <hw4>.py
 
 Problem: < These programs create graphics that are interactive with the user and also calculate PI Approximation>

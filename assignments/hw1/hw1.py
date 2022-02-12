@@ -33,7 +33,7 @@ def calc_volume():
 def shooting_percentage():
     attempts_made = eval(input('enter the attempts:'))
     shots_made = eval(input('enter the shots:'))
-    shooting_percentage = attempts_made / shots_made
+    shooting_percentage = (shots_made / attempts_made) * 100
     print("shooting_percentage =", shooting_percentage)
 
 
@@ -46,7 +46,7 @@ def coffee():
 
 def kilometers_to_miles():
     kilometer = eval(input("how many kilometers did you travel?:"))
-    miles = kilometer * .62137
+    miles = kilometer / 1.61
     print("total miles:", miles)
 
 

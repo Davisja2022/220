@@ -67,8 +67,16 @@ def rectangle():
     rect_object.draw(win)
     rect_object.setFill("red")
 
-    message_two = Text(Point(250, 25),'Click to close window.')
+    per = (abs(p1.getX() - p2.getX()) * 2) + (abs(p1.getY() - p2.getY()) * 2)
+    area = abs(p1.getX() - p2.getX())  * abs(p1.getY() - p2.getY())
+
+    message_two = Text(Point(250, 425), 'Perimeter: ' + str(per))
     message_two.draw(win)
+    message_three = Text(Point(250, 450), 'Area: ' + str(area))
+    message_three.draw(win)
+
+    message_four = Text(Point(250, 25),'Click to close window.')
+    message_four.draw(win)
     win.getMouse()
     win.close()
 
@@ -88,7 +96,7 @@ def circle():
 
     rad = math.sqrt(pow(p1.getX() - p2.getX(), 2) + pow(p1.getY() - p2.getY(), 2))
 
-    cir = Circle(Point(p1.getX(), p1.getY()), r)
+    cir = Circle(Point(p1.getX(), p1.getY()), rad)
     cir.draw(win)
     cir.setFill("green")
 

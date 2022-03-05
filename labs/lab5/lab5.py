@@ -185,3 +185,5 @@ def target():
     win.close()
 
 
+#color_shape()
+triangle()

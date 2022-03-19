@@ -74,5 +74,7 @@ if __name__ == '__main__':
      # print(res)
      # res = sum_n_cubes(13)
      # print(res)
-     encode_better()
+    # encode_better()
 
+
+    encode()

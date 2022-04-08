@@ -11,12 +11,12 @@ from door import Door
 def main():
     switch = False
     terminate = False
-    win = GraphWin('Test', 650, 700)
+    win = GraphWin('Test', 700, 700)
     square = Button(Rectangle(Point(75,75),Point(575,150)), "Exit.")
     square.draw(win)
     square.color_button("red")
 
-    door = Door(Rectangle(Point(120,185),Point(530,585)), "Closed")
+    door = Door(Rectangle(Point(175,500),Point(5,585)), "Closed")
     door.draw(win)
     door.color_door("orange")
 

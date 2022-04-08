@@ -70,11 +70,11 @@ if __name__ == '__main__':
      # print(res)
      # res = sphere_volume(13)
      # print(res)
-     # res = sum_n(100)
-     # print(res)
+     res = sum_n(100)
+     print(res)
      # res = sum_n_cubes(13)
      # print(res)
     # encode_better()
 
 
-    encode()
+   # encode()

@@ -6,7 +6,8 @@ class Door:
 
     def __init__(self, shape, label):
         self.shape = shape
-        self.label = label
+
+
 
     def get_label(self):
         return self.label
@@ -17,8 +18,7 @@ class Door:
 
     def draw(self, win):
         self.shape.draw(win)
-        self.text.setText(self.label)
-        self.text.draw(win)
+
 
     def undraw(self):
         self.shape.undraw()

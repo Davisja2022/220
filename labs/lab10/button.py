@@ -1,7 +1,7 @@
 from graphics import *
 
 class Button:
-    shape = Rectangle(Point(30,30), Point(150,90))
+    shape = Rectangle(Point(450,50), Point(450,125))
     text = Text(shape.getCenter(), "Exit")
 
     def __init__(self, shape, label):
